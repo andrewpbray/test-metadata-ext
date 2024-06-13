@@ -1,0 +1,23 @@
+project:
+  type: website
+  # pre-render:
+  #   - _extensions/test-scripts/check-pre-render.ts
+  # post-render:
+  #   - _extensions/test-scripts/check-post-render.ts
+
+website:
+  title: "Script-extension"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
